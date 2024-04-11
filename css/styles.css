@@ -1268,3 +1268,7 @@ nav#filter li {
 .isotopeWrapper article {
 	margin: 0px;
 }
+
+.featureImage{
+	border-radius: 10px;
+}
