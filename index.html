@@ -43,12 +43,10 @@
   </div>
   <!--/.container--> 
 </header>
-
-
-
-
 <!--/.header-->
 <div id="#top"></div>
+
+
 
 <section id="home">
   <div class="banner-container" > <img src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="banner" style="opacity: .5;"/>
@@ -226,7 +224,7 @@
           nossa história e compromisso com a qualidade em cada serviço prestado.
         </p>
       </div>
-      <div class="six columns feature-media left"> <img src="images/feature-img-1.png" alt=""> </div>
+      <div class="six columns feature-media left"> <img src="images/feature-img-1.png" class="aboutUsImage" alt=""> </div>
     </div>
   </div>
 </section>
@@ -245,9 +243,9 @@
     <div class="serviceBox">
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <h3><i class="fa fa-desktop color"></i>&nbsp; Serviços de Manutenção Industrial</h3>
+          <h3><i class="fa fa-wrench color"></i>&nbsp; Serviços de Manutenção Industrial</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Manutenção preventiva e corretiva de equipamentos industriais.</li>
             <li>Troca de revestimento em moinhos verticais e horizontais.</li>
             <li>Manutenção em filtros de mangas, resfriadores, britadores.</li>
@@ -257,9 +255,9 @@
         </div>
         <div class="col-md-4 col-sm-4"> 
           <!-- Heading -->
-          <h3><i class="fa fa-cloud color"></i>&nbsp;Gestão e Planejamento de Manutenção</h3>
+          <h3><i class="fa fa-wrench color"></i>&nbsp;Gestão e Planejamento de Manutenção</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Planejamento e Controle de Manutenção (PCM).</li>
             <li>Fornecimento de mão de obra qualificada para serviços de manutenção industrial.</li>
             <li>Automação e instrumentação industrial para otimização dos processos de manutenção.</li>
@@ -267,9 +265,9 @@
         </div>
         <div class="col-md-4 col-sm-4"> 
           <!-- Heading -->
-          <h3><i class="fa fa-home color"></i>&nbsp;Serviços de Caldeiraria e Montagem Industrial</h3>
+          <h3><i class="fa fa-wrench color"></i>&nbsp;Serviços de Caldeiraria e Montagem Industrial</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Caldeiraria Industrial, Estrutura Metálica e Tubulação.</li>
             <li>Montagens industriais para instalação e integração de equipamentos.</li>
           </ul>
@@ -277,9 +275,9 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <h3><i class="fa fa-desktop color"></i>&nbsp;Serviços de Limpeza e Manutenção</h3>
+          <h3><i class="fa fa-cloud color"></i>&nbsp;Serviços de Limpeza e Manutenção</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Limpeza industrial, incluindo pré e pós-paradas de manutenção.</li>
             <li>Limpeza de áreas administrativas.</li>
             <li>Fornecimento de mão de obra especializada para serviços de limpeza e manutenção.</li>
@@ -287,18 +285,18 @@
         </div>
         <div class="col-md-4 col-sm-4"> 
           <!-- Heading -->
-          <h3><i class="fa fa-cloud color"></i>&nbsp;Gestão de Recursos e Serviços</h3>
+          <h3><i class="fa fa-briefcase color"></i>&nbsp;Gestão de Recursos e Serviços</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Gerenciamento completo de recursos, incluindo mão de obra e equipamentos.</li>
             <li>Prestação de serviços de limpeza, manutenção e locação de equipamentos como soluções integradas para clientes industriais.</li>
           </ul>
         </div>
         <div class="col-md-4 col-sm-4"> 
           <!-- Heading -->
-          <h3><i class="fa fa-home color"></i>&nbsp;Locação de Equipamentos Pesados</h3>
+          <h3><i class="fa fa-pencil-square-o color"></i>&nbsp;Locação de Equipamentos Pesados</h3>
           <!-- Paragraph -->
-          <ul>
+          <ul class="semBolinhas">
             <li>Locação de máquinas pesadas, como mini carregadeiras e retroescavadeiras.</li>
             <li>Fornecimento de equipamentos para atender às necessidades específicas dos clientes.</li>
           </ul>
@@ -313,41 +311,53 @@
   <div class="container">
     <div class="heading text-center">
       <h2>Portifólio</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+      <p>Descubra como nossos serviços de manutenção industrial garantem eficiência e segurança para sua empresa.</p>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="portfolio">
-          <ul class="filters list-inline text-center">
+          <!--<ul class="filters list-inline text-center">
             <li> <a class="active" data-filter="*" href="#">All</a> </li>
             <li> <a data-filter=".photography" href="#">Photography</a> </li>
             <li> <a data-filter=".branding" href="#">Branding</a> </li>
             <li> <a data-filter=".web" href="#">Web</a> </li>
-          </ul>
+          </ul>-->
           <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
-            <li class="item branding" style="position: absolute; left: 0px; top: 0px;"> <a href="images/work/1.jpg" class="fancybox"> <img src="images/work/1.jpg" alt="">
-              <div class="overlay"> <span>Etiam porta</span> </div>
+            <li class="item branding" style="position: absolute; left: 0px; top: 0px;"> <a href="images/work/01.jpeg" class="fancybox"> <img src="images/work/01.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item photography" style="position: absolute; left: 292px; top: 0px;"> <a href="images/work/2.jpg" class="fancybox"> <img src="images/work/2.jpg" alt="">
-              <div class="overlay"> <span>Lorem ipsum</span> </div>
+            <li class="item photography" style="position: absolute; left: 292px; top: 0px;"> <a href="images/work/02.jpeg" class="fancybox"> <img src="images/work/02.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item branding" style="position: absolute; left: 585px; top: 0px;"> <a href="images/work/3.jpg" class="fancybox"> <img src="images/work/3.jpg" alt="">
-              <div class="overlay"> <span>Vivamus quis</span> </div>
+            <li class="item branding" style="position: absolute; left: 585px; top: 0px;"> <a href="images/work/03.jpeg" class="fancybox"> <img src="images/work/03.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item photography" style="position: absolute; left: 877px; top: 0px;"> <a href="images/work/4.jpg" class="fancybox"> <img src="images/work/4.jpg" alt="">
-              <div class="overlay"> <span>Donec ac tellus</span> </div>
+            <li class="item photography" style="position: absolute; left: 877px; top: 0px;"> <a href="images/work/04.jpeg" class="fancybox"> <img src="images/work/04.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item photography" style="position: absolute; left: 0px; top: 219px;"> <a href="images/work/5.jpg" class="fancybox"> <img src="images/work/5.jpg" alt="">
-              <div class="overlay"> <span>Etiam volutpat</span> </div>
+            <li class="item photography" style="position: absolute; left: 0px; top: 219px;"> <a href="images/work/05.jpeg" class="fancybox"> <img src="images/work/05.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item web" style="position: absolute; left: 292px; top: 219px;"> <a href="images/work/6.jpg" class="fancybox"> <img src="images/work/6.jpg" alt="">
-              <div class="overlay"> <span>Donec congue </span> </div>
+            <li class="item web" style="position: absolute; left: 292px; top: 219px;"> <a href="images/work/06.jpeg" class="fancybox"> <img src="images/work/06.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item photography" style="position: absolute; left: 585px; top: 219px;"> <a href="images/work/7.jpg" class="fancybox"> <img src="images/work/7.jpg" alt="">
-              <div class="overlay"> <span>Nullam a ullamcorper diam</span> </div>
+            <li class="item photography" style="position: absolute; left: 585px; top: 219px;"> <a href="images/work/07.jpeg" class="fancybox"> <img src="images/work/07.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
-            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/8.jpg" class="fancybox"> <img src="images/work/8.jpg" alt="">
-              <div class="overlay"> <span>Etiam consequat</span> </div>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/08.jpeg" class="fancybox"> <img src="images/work/08.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
+              </a> </li>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/09.jpeg" class="fancybox"> <img src="images/work/09.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
+              </a> </li>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/10.jpeg" class="fancybox"> <img src="images/work/10.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
+              </a> </li>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/13.jpeg" class="fancybox"> <img src="images/work/13.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
+              </a> </li>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="images/work/12.jpeg" class="fancybox"> <img src="images/work/12.jpeg" alt="">
+              <div class="overlay"> <span></span> </div>
               </a> </li>
           </ul>
         </div>
